@@ -1,9 +1,9 @@
 {
   "version": 2,
   "builds": [
-    { "src": "/api/fb-capi.js", "use": "@vercel/node" }
+    { "src": "api-fb-capi.js", "use": "@vercel/node" }
   ],
   "routes": [
-    { "src": "/api/fb-capi", "dest": "api/fb-capi.js" }
+    { "src": "/api/fb-capi", "dest": "api-fb-capi.js" }
   ]
 }
